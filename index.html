@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- IE8+に対して「IE=edge」と指定することで、利用できる最も互換性の高い最新のエンジンを使用するよう指示できます
+     参考: https://www.modern.ie/en-us/performance/how-to-use-x-ua-compatible -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<!-- ページのタイトルを記述 -->
+<title>undefined space</title>
+ 
+<!-- パフォーマンスのために使用する文字のエンコーディングを記述
+     参考: https://developers.google.com/speed/docs/best-practices/rendering#SpecifyCharsetEarly -->
+<meta charset="utf-8">
+ 
+<!-- content属性にページの紹介文を記述 -->
+<meta name="description" content="This is undefined's homepage.">
+ 
+<!-- content属性にページの著者情報を記述 -->
+<meta name="author" content="undefined">
+
+<!-- content属性にページのキーワードを記述 -->
+<meta name="keywords" content="undefined,vtuber">
+ 
+<!-- モバイル端末への対応、ページをビューポートの幅に合わせてレンダリング（Android, iOS6以降）
+     ズームを許可しない設定「user-scalable=no」は加えない -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<!-- スタイルシートはできるだけ早くレンダリングされるため、HTMLドキュメントの上の方に記述
+     href属性にスタイルシートファイルのURIを記述 -->
+<link rel="stylesheet" href="./css/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap&subset=japanese" rel="stylesheet">
+<!-- IE8以下用に2つのスクリプトを記述
+     html5shiv.js: IE8以下にHTML5の要素を認識するようにさせる
+     respond.js: IE8以下にMedia Queriesの代替え機能を提供 -->
+<!--[if lt IE 9]>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+ 
+<!-- href属性にファビコンファイルのURIを記述 -->
+<link rel="shortcut icon" href="./img/undefined.png">
+ 
+<!-- コメントアウトしてあるコードは、iOS/Android用のアイコン指定 -->
+<!--
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" sizes="196x196" href="">
+<link rel="apple-touch-icon" sizes="152x152" href="">
+-->
+ 
+<!-- スクリプトでブロッキングを起こさないものはここに記述
+     可能であれば「async（文書の読み込みが完了した時点でスクリプトを実行）」を使用
+     Example: <script src="" async></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./script/script.js"></script>
+<script src="./script/test.js"></script>
+<script src="./script/common.js"></script>
+<script src="./script/demo.js"></script>
+<script src="./script/maze.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+ 
+<!-- コンテンツを記述 -->
+<header>
+  <div class="title">undefined space</div>
+  <!-- <div class="menu">
+    <div class="menu-item"><a href="#sect1">Vtuber bot</a></div>
+    <div class="menu-item"><a href="#sect2"></a></div>
+    <div class="menu-item"><a href="#sect3">メニュー3</a></div>
+    <div class="menu-item"><a href="#sect4">メニュー4</a></div>
+  </div> -->
+</header>
+<div class="main">
+  <h2 class=""><span class="h1-deco">Update History</span></h1>
+
+  <div class="c-table-wrapper">
+    <table align="center" class="c-table">
+      <tr>
+        <td>2019/10/02</td><td style="text-align: center; width: 100px;"><span class="td-update">更新情報</span></td><td>Vtuber botの通知対象に 轟京子 を追加</td>
+      </tr>
+      <tr>
+        <td>2019/08/31</td><td style="text-align: center; width: 100px;"><span class="td-other">その他</span></td><td>久遠千歳 引退</td>
+      </tr>
+      <tr>
+        <td>2019/08/30</td><td style="text-align: center; width: 100px;"><span class="td-update">更新情報</span></td><td>Vtuber botの通知対象に 三枝明那, 竜胆尊, 雨森小夜, ジョー・力一, 花畑チャイカ, 戌亥とこ を追加</td>
+      </tr>
+      <tr>
+        <td>2019/03/04</td><td style="text-align: center; width: 100px;"><span class="td-other">その他</span></td><td>久遠千歳 誕生日</td>
+      </tr>
+
+    </table>
+  </div>
+
+  <h1 class="" id="sect1"><span class="">Profile</span></h1>
+  <div class="section-content">
+    <div class="profile">
+      <!-- <p>Affilication : The University of Electro-Communications</p>
+      <p>Age : 24</p>
+      <p>Like : VTuber, Programming, Animation, Game etc.</p>
+      <p>Twitter : <a href="https://mobile.twitter.com/__undefined0__" target=_blank>undefined</a></p> -->
+      <table class="profile-table">
+        <tr><td colspan="2" align="center"><img src="./img/undefined.png" alt="undefined image" width=300 height=300></td></tr>
+        <tr class="profile-tr"><th>Name</th><td>undefined</td></tr>
+        <tr class="profile-tr"><th>Age</th><td>24</td></tr>
+        <tr class="profile-tr"><th>Affilication</th><td>The University of Electro-Communications</td></tr>
+        <tr class="profile-tr"><th>Like</th><td>VTuber, Programming, Illustration, etc.</td></tr>
+      </table>
+    </div>
+    <div class="my-twitter">
+      <a class="twitter-timeline" data-lang="en" data-width="400" data-height="400" data-theme="dark" href="https://twitter.com/__undefined0__?ref_src=twsrc%5Etfw">Tweets by __undefined0__</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+
+  <h1 class="" id="sect2"><span class="">Vtuber Bot</span></h1>
+  <div class="section-content">
+    <p>Twitter : <a href="https://mobile.twitter.com/Vtuberbot3" target=_blank><i class="fab fa-twitter-square twitter-icon bot-link"></i>VTuber配信関連お知らせbot</a></p>
+    <h3>対象のVTuberリスト</h3>
+    <p><strong>[Attention!!] This list depends on my preference.</strong></p>
+
+    <ul  class="tab-wrapper">
+      <li class="tab active-tab">Nijisanji</li>
+      <li class="tab">.LIVE</li>
+      <li class="tab">Individual</li>
+    </ul>
+
+    <div class="content-wrapper">
+      <div class="content active-content">
+        <table class="vlist-table">
+          <tr>
+            <th>VTuber名</th>
+            <th>Twitter</th>
+            <th>YouTube</th>
+          </tr>
+          <tr>
+            <td>久遠 千歳</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/kudou_chitose" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCP2o-o6u4uX3uq1hXspl0rg" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>雨森 小夜</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/Sayo_Amemori" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCRWOdwLRsenx2jLaiCAIU4A" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>童田 明治</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/warabeda_meiji" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCveZ9Ic1VtcXbsyaBgxPMvg" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>アンジュ・カトリーナ</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/Ange_Katrina_" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCHVXbQzkl3rDfsXWo8xi2qw" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>リゼ・ヘルエスタ</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/Lize_Helesta" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCZ1xuCK1kNmn5RzPYIZop3w" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>戌亥 とこ</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/inui_toko" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCXRlIK3Cw_TJIQC5kSJJQMg" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>夢月 ロア</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/yuzuki_roa" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCCVwhI5trmaSxfcze_Ovzfw" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>笹木 咲</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/saku_sasaki" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCoztvTULBYd3WmStqYeoHcA" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>卯月 コウ</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/udukikohh" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UC3lNFeJiTq6L3UWoz4g1e-A" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>御伽原 江良</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/OtogibaraEra" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCwQ9Uv-m8xkE5PzRc7Bqx3Q" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td></tr>
+          <tr>
+            <td>鷹宮 リオン</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/TakamiyaRion" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCV5ZZlLjk5MKGg3L0n0vbzw" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>竜胆 尊</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/RindouMikoto" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCPvGypSgfDkVe7JG2KygK7A" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>ジョー・力一</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/JoeRikiichi" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UChUJbHiTVeGrSkTdBzVfNCQ" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>花畑 チャイカ</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/ZulmIhP1nlMOT5y" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCsFn_ueskBkMCEyzCEqAOvg" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>鈴鹿 詩子</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/suzukautako" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCwokZsOK_uEre70XayaFnzA" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>神田 笑一</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/Kanda_Shoichi" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCWz0CSYCxf4MhRKPDm220AQ" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td></tr>
+          <tr>
+            <td>郡道 美玲</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/g9v9g_mirei" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCeShTCVgZyq2lsBW9QwIJcw" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>愛園 愛美</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/manami_aizono" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UC0WwEfE-jOM2rzjpdfhTzZA" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>三枝 明那</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/333akina" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCNW1Ex0r6HsWRD4LCtPwvoQ" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>月ノ 美兎</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/MitoTsukino" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCD-miitqNY3nyukJ4Fnf4_A" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>轟 京子</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/KT_seeds" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCRV9d6YCYIMUszK-83TwxVA" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="content">
+        <table class="vlist-table">
+          <tr>
+              <th>VTuber名</th>
+              <th>Twitter</th>
+              <th>YouTube</th>
+          </tr>
+          <tr>
+            <td>金剛 いろは</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/KongoIroha" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCiGcHHHT3kBB1IGOrv7f3qQ" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+          <tr>
+            <td>牛巻 りこ</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/UshimakiRiko" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCKUcnaLsG2DeQqza8zRXHiA" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="content">
+        <table class="vlist-table">
+          <tr>
+            <th>VTuber名</th>
+            <th>Twitter</th>
+            <th>YouTube</th>
+          </tr>
+          <tr>
+            <td>名取 さな</td>
+            <td class="icon-deco"><a href="https://mobile.twitter.com/sana_natori" target=_blank><i class="fab fa-twitter-square twitter-icon"></i></a></td>
+            <td class="icon-deco"><a href="https://www.youtube.com/channel/UCIdEIHpS0TdkqRkHL5OkLtA" target=_blank><i class="fab fa-youtube youtube-icon"></i></a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="" id="sect3"><span class="">Experiment</span></h1>
+
+  <h2><span class="h2-deco">Maze Demo</span></h2>
+  <div class="section-content">
+    <p>
+        迷路生成 : 初期化, 棒倒し法, クラスカル法<br>
+        探索 : BFS, DFS<br>
+        学習 : Q-Learning<br>
+        ゴールは水色のマス.
+    </p>
+
+    <canvas id="canvas_test" width="400" height="400">代替テキストです</canvas>
+    <br>
+
+    <form action="./script/maze.js" name="maze">
+        Size of maze<br>
+        [Height] : 
+        <select name="maze_h">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7" selected>7</option>
+            <option value="9">9</option>
+            <option value="11">11</option>
+            <option value="13">13</option>
+            <option value="15">15</option>
+            <option value="17">17</option>
+            <option value="19">19</option>
+            <option value="21">21</option>
+            <option value="23">23</option>
+            <option value="25">25</option>
+            <option value="27">27</option>
+            <option value="29">29</option>
+        </select>
+
+        <br>
+
+        [Width] :
+        <select name="maze_w">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7" selected>7</option>
+            <option value="9">9</option>
+            <option value="11">11</option>
+            <option value="13">13</option>
+            <option value="15">15</option>
+            <option value="17">17</option>
+            <option value="19">19</option>
+            <option value="21">21</option>
+            <option value="23">23</option>
+            <option value="25">25</option>
+            <option value="27">27</option>
+            <option value="29">29</option>
+        </select>
+
+        <br>
+
+        <input type="button" value="変更" onclick="Maze.changeSize();">
+    </form>
+
+    <br>
+
+    <input type="button" value="初期化" onclick="Maze.prepareWall();">
+    <input type="button" value="棒倒し法" onclick="Maze.stickDown();">
+    <input type="button" value="クラスカル法" onclick="Maze.wallExtend();">
+    <!-- <input type="button" value="???" onclick="Maze.changeCharacter();"> -->
+    <br>
+
+    <input type="button" value="BFS" onclick="Maze.runBfs();">
+    <input type="button" value="DFS" onclick="Maze.runDfs();">
+    <input type="button" value="Q-Learning" onclick="Maze.runQLearning();">
+    <input type="button" value="Stop" onclick="Maze.stop();">
+    <input type="button" value="Clear" onclick="Maze.clearCanvas();">
+    <br>
+
+    <p><strong>[best action for each state]</strong></p>
+    <div id="q_table"></div>
+    <br>
+    [<strong>O</strong>] : Wall, [<strong>&and;</strong>] : Up, [<strong>&or;</strong>] : Down, [<strong>&lt;</strong>] : Left, [<strong>&gt;</strong>] : Right
+  </div>
+
+  <h2><span class="h2-deco">Sort Algorithm Demo</span></h2>
+  <div class="section-content">
+    <div id="demo_message"></div>
+
+    <canvas id="demo" width="900" height="200">alternative text</canvas>
+    <br>
+    <input type="button" value="シャッフル" onclick="Demo.shuffle();">
+    <br>
+    <form action="./script/demo.js" name="demo">
+        [ソートの種類] :
+        <select name="kind">
+            <option value="1" selected>挿入</option>
+            <option value="2">バブル</option>
+            <option value="3">マージ</option>
+            <!-- <option value="4"></option> -->
+            <!-- <option value="5">bogo</option> -->
+        </select>
+        <input type="button" value="変更" onclick="Demo.changeKindOfSort(); Demo.sendMessage();">
+    </form>
+    <input type="button" value="Start!" onclick="Demo.runSort();">
+  </div>
+
+  <!-- <h1 class="" id="sect4"><span class="">メニュー3</span></h1>
+  <div class=""></div>
+
+  <h1 class="" id="sect5"><span class="">メニュー4</span></h1>
+  <div class=""></div> -->
+
+</div>
+</div>
+
+<footer>
+  &copy; Copyright undefined space All rights reserved.
+</footer>
+<!-- スクリプトでブロッキングを起こすものはここに記述
+ブロッキングを起こす原因としては、CSSのセレクタ操作（IE）、負荷の高いDOM操作、多数のスクリプトなど -->
+<!-- SCRIPTS -->
+<!-- 例: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+</body>
+</html>
