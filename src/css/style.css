@@ -66,7 +66,7 @@ h2 {
 
 .c-table-wrapper {
   overflow-y: scroll;
-  height: 100px;
+  max-height: 150px;
 }
 
 .c-table {
@@ -179,7 +179,7 @@ h2 {
 .content {
   display: none;
   overflow-y: scroll;
-  height: 200px;
+  height: 300px;
 }
 
 .active-content {
